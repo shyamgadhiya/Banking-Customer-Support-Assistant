@@ -1,0 +1,66 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Training checkpoints and large model artifacts
+bank_finetune_data/checkpoints/
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+# Optional: Ignore adapter weights if tracking via Hugging Face Hub / Git LFS instead
+# bank_finetune_data/banking-lora-adapter/*.safetensors
+
+# Hugging Face caches & downloads
+.cache/
+huggingface/
+wandb/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables & secrets
+.env
+.env.local
+*.env
+
+# IDE & editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
